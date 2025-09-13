@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="nav">
+    <div class="nav-left">
+        <h1>PKR FOODS</h1>
+    </div>
+   <div class="center">
+        <ul class="nav-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </div>
+  <div class="nav-right">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg>
+</div>
+</div>
+<div class="cnt">
+<div class="content">
+    <span class="left1">Are You Hungry?</span>
+    <span class="left2">Don't Wait</span>
+    <span class="left3">Let start to order food now</span>
+    <span class="left4">Check Out Menu</span>
+</div>
+<div class="cnt-image" id="cnt-image">
+</div>
+</div>
+<div class="items">
+  <div id="food1"></div>
+  <div id="food4"></div>
+  <div id="food3"></div>
+</div>
+<script>
+let cntImage = document.getElementById("cnt-image");
+let food1 = document.getElementById("food1");
+let food4 = document.getElementById("food4");
+let food3 = document.getElementById("food3");
+
+food1.addEventListener('click', () => {
+    cntImage.style.backgroundImage = "url('food1.png')";
+});
+
+food4.addEventListener('click', () => {
+    cntImage.style.backgroundImage = "url('food4.png')";
+});
+
+food3.addEventListener('click', () => {
+    cntImage.style.backgroundImage = "url('food3.png')";
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('food.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left {
+    color: orange;
+}
+.nav-left  h1{
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.nav-items{
+    display:flex;
+    list-style-type: none;
+    gap: 35px;
+    margin-left: -200px;
+}
+.nav-items li a{
+    text-decoration: none;
+    color:orange;
+
+}
+.nav-right {
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.left1 {
+    font-style: italic;
+    font-size: 40px;
+    margin-top: -50px;
+}
+
+.left2 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.left3 {
+    font-size: 20px;
+    font-style: italic;
+    color: orange;
+    margin-top: 15px;
+}
+
+.left4 {
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid orange;
+    border-radius: 30px;
+    padding: 5px 25px;
+    margin-top: 20px;
+}
+
+.left4:hover {
+    background-color: orange;
+    color: black;
+}
+
+.cnt-image {
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+#cnt-image {
+    background-image: url('food2.png');
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.items {
+    display: flex;
+    gap: 15px;
+    margin-left: 200px;
+    margin-top: -120px;
+}
+
+#food1, #food4, #food3 {
+    border: 2px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+#food1 {
+    background-image: url('food1.png');
+    background-size: cover;
+}
+
+#food4 {
+    background-image: url('food4.png');
+    background-size: cover;
+}
+
+#food3 {
+    background-image: url('food3.png');
+    background-size: cover;
+}
